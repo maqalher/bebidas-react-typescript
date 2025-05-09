@@ -48,3 +48,8 @@ npm install @headlessui/react
 
 heroicons
 npm i @heroicons/react
+
+Vercel AI SDK
+npm install @openrouter/ai-sdk-provider
+
+npm install ai  para usar streamText 
