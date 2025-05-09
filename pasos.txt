@@ -1,0 +1,50 @@
+npm create vite@latest
+|
+o  Project name:
+|  bebidas-react-typescript
+|
+o  Select a framework:
+|  React
+|
+o  Select a variant:
+|  TypeScript + SWC
+|
+o  Scaffolding project in C:\Users\thinkpad\Desktop\React\React JP\bebidas-react
+-typescript...
+|
+—  Done. Now run:
+
+  npm install
+  npm run dev
+
+Tailwind
+    npm install -D tailwindcss@3 postcss autoprefixer
+    npx tailwindcss init -p
+
+    tailwind.config.js
+        content: [
+            "./index.html",
+            "./src/**/*.{js,ts,jsx,tsx}",
+        ],
+
+    index.css
+
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+React router
+    https://www.npmjs.com/package/react-router-dom
+    npm i react-router-dom
+
+Zustand
+npm i zustand
+
+Axios y Zod
+npm i axios zod
+
+https://headlessui.com/react/dialog
+npm install @headlessui/react
+
+heroicons
+npm i @heroicons/react
